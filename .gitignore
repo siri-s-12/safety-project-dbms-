@@ -1,0 +1,26 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+web_modules/
+
+# Dotenv environment variables / secrets
+.env
+.env.local
+.env.production
+.env.development
+.env.staging
+.env.*
+
+# Build outputs
+dist/
+build/
+out/
+.nyc_output
+coverage/
+
+# Debug and system files
+*.log
+npm-debug.log*
+.eslintcache
+.DS_Store
+Thumbs.db
